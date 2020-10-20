@@ -2,6 +2,10 @@
 *.log
 *.trs
 *.lo
+*_gen
+*_data.h
+*_test
+*_test.c
 Makefile
 Makefile.in
 .libs
@@ -13,6 +17,7 @@ compile
 config.guess
 config.h
 config.h.in
+config.h.in~
 config.status
 config.sub
 configure
@@ -22,4 +27,7 @@ libtool
 ltmain.sh
 m4/
 missing
+src/modp_b64*.c
 stamp-h1
+test-driver
+test/speedtest*
